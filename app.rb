@@ -13,7 +13,9 @@ class App < Sinatra::Base
   end
   
   post '/puppy' do 
-    
+    @name 
+    @breed
+    @age 
     erb :display_puppy
   end 
 
