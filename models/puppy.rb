@@ -1,7 +1,6 @@
 class Puppy 
   
-  def initialize 
-    
+  def initialize(name, breed, months_old)
     
   end 
   
