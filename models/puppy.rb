@@ -1,5 +1,6 @@
 class Puppy 
-  
+  attr_accessor 
+  attr_reader
   
   def initialize(name, breed, months_old)
     @name = name 
